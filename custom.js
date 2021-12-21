@@ -12,6 +12,7 @@
        urdu =+ sub2.value;
        math =+ sub3.value;
        science =+ sub4.value;
+       
      let  obtainedMarks = eng + urdu + math + science;
      let  percentage = obtainedMarks/totalNumber * 100;
      if (percentage >= 90 && percentage <= 100 ) {
