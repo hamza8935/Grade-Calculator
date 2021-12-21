@@ -34,7 +34,10 @@
     else{
         status1.innerText = 'INVALID '
     }
-
+    sub1.value = '';
+    sub2.value = '';
+    sub3.value = '';
+    sub4.value = '';
      para.innerText = 'Out of ' + totalNumber + ' your obtained marks is ' + obtainedMarks 
      + ' and your percentage is ' + percentage + ' %';
 
